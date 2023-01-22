@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+
+h1{
+    color: white;
+    font-size: 10rem;
+    font-family: 'Quattrocento', serif; 
+}
+
+h2{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Quattrocento', serif;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 2;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-bar{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    z-index: 1;
+}
+
+.logo{
+    width: 5%;
+    position: relative;
+    right: 9rem;
+    margin: 0;
+}
+
+.header-link{
+    color: #003366;
+    position: relative;
+    bottom: 1.5rem;
+    margin: 0 4rem 0 4rem;
+    font-size: 1.30rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active{
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+}
+
+.content{
+    text-align: center;
+    position: relative;
+    top: 4.5rem;
+    background:url("/img/home-background.png") no-repeat fixed;
+}
+
+.color-back{
+    background: rgba(0,51,102,0.40);
+}
+
+.main-title{
+    margin: 0 auto 0 auto;
+    margin-top: 0;
+    padding-top: 6rem;
+    letter-spacing: 4.5rem;
+}
+
+.main-subtitle{
+    position: relative;
+    right: 2rem;
+    margin-top: 0;
+    letter-spacing: 0.33rem;
+}
+
+.intro{
+    font-weight: bold;
+    width: 70%;
+    margin: 3rem auto 12rem auto;
+}
+
+.clear{
+    color: white;
+}
+
+.services{
+    text-align: center;
+    padding-bottom: 7rem;
+}
+
+.service-element{
+    margin: 5rem;
+    display: inline-block;
+}
+
+.service-element:hover .service-title{
+    position: relative;
+    bottom: 2rem;
+}
+
+.service-element:hover .service-icon{
+    position: relative;
+    bottom: 2rem;
+}
