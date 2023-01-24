@@ -79,7 +79,7 @@ a{
 }
 
 .main{
-    background:url("./img/home-background.png") no-repeat fixed;
+    background:url("img/home-background.png") no-repeat fixed;
 }
 
 .color-back{
@@ -131,15 +131,15 @@ a{
 }
 
 .transport{
-    background-image:url("./img/banner-transport.png");
+    background-image:url("img/banner-transport.png");
 }
 
 .cleaning{
-    background-image:url("./img/banner-clean.png");
+    background-image:url("img/banner-clean.png");
 }
 
 .security{
-    background-image:url("./img/banner-security.png");
+    background-image:url("img/banner-security.png");
 }
 
 .service-right{
