@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/CSS/styles.css">
+        <link rel="shortcut icon" href="/img/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quattrocento&family=Quicksand&display=swap" rel="stylesheet">
+        <title>PLUS - Sitio oficial</title>
+    </head>
+    
+    <body>
+        <div class="nav-bar">
+            <img class="logo" src="/img/logo.png" alt="logo-plus">
+            <a class="header-link" href="index.html">Inicio</a>
+            <a class="header-link" href="services.html">Servicios</a>
+            <a class="header-link" href="about.html">Acerca de PLUS</a>
+            <a class="header-link active" href="contact.html">Contacto</a>
+        </div>
+
+        <div class="content contact-background">
+            <div class="contact-info">
+                <div class="contact-section">
+                    <img src="/img/phone.png" alt="phone-icon">
+                    <h2 class="dark">Teléfono</h2>
+                    <p>961 169 6504</p>
+                    <a class="btn" href="tel:+52961 169 6504">Llamar</a>
+                </div>
+
+                <div class="contact-section">
+                    <img src="/img/mail.png" alt="mail-icon">
+                    <h2 class="dark">Correo electrónico</h2>
+                    <p>plusseguriadprivada@hotmail.com</p>
+                    <a class="btn" href="mailto:plusseguriadprivada@hotmail.com">Enviar correo</a>
+                </div>
+
+                <div class="contact-schedule">
+                    <h2 class="dark">Horario de atención:</h2>
+                    <p>De lunes a viernes de 09:00 a 14:00 horas. Sábados de 09:00 a 13:00 horas.</p>
+                </div>
+                
+            </div>
+
+            <div class="contact-forms">
+                <h2 class="dark">¿Necesita más información?</h2>
+                <form class="" action="mailto:plusseguriadprivada@hotmail.com" method="post">
+                    <table>
+                        <tr>
+                            <td>
+                                <label> Nombre completo </label><br>
+                                <input type="text" name="nombre"><br>
+                            </td>
+                            <td>
+                                <label> Correo electrónico </label><br>
+                                <input type="email" name="correo"><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label> Teléfono </label><br>
+                                <input type="tel" name="telefono"><br>
+                            </td>
+                            <td>
+                                <label> Asunto </label><br>
+                                <input type="text" name="asunto"><br>
+                            </td>
+                        </tr>
+                    </table>                        
+                        
+                    <label> Mensaje </label><br>
+                    <textarea name="mensaje" rows="10" cols="50"></textarea><br>
+                    <input type="submit" value="Enviar" class="btn">
+                    
+                </form>
+            </div>
+        </div>
+
+    </body>
+
+</html>

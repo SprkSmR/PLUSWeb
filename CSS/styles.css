@@ -20,6 +20,15 @@ h3{
     font-family: 'Quicksand', sans-serif;
 }
 
+table{
+    text-align: center;
+    margin: auto;
+}
+
+td{
+    padding: 2rem 3rem 2rem 3rem;
+}
+
 p{
     font-size: 1.2rem;
     line-height: 2;
@@ -67,6 +76,9 @@ a{
     text-align: center;
     position: relative;
     top: 4.5rem;
+}
+
+.main{
     background:url("/img/home-background.png") no-repeat fixed;
 }
 
@@ -116,4 +128,111 @@ a{
 .service-element:hover .service-icon{
     position: relative;
     bottom: 2rem;
+}
+
+.transport{
+    background-image:url("/img/banner-transport.png");
+}
+
+.cleaning{
+    background-image:url("/img/banner-clean.png");
+}
+
+.security{
+    background-image:url("/img/banner-security.png");
+}
+
+.service-right{
+    text-align: left;
+    padding: 5rem 0 1rem 2rem;
+    position: relative;
+}
+
+.service-left{
+    text-align: left;
+    padding: 5rem 0 1rem 2rem;
+    position: relative;
+}
+
+.text-box{
+    padding: 1rem;
+    width: 70%;
+    border-radius: 40px;
+    background: rgba(0,0,0,0.60);
+}
+
+.intext{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-background{
+    background-color: #003366;
+}
+
+.contact-background{
+    background-color: rgba(0,51,102,0.01);;
+}
+
+.about{
+    padding-top: 2rem;
+    text-align: center;
+    width: 60%;
+    margin: auto auto 2rem auto;
+}
+
+.misvis-text{
+    text-align: center;
+    width: 30%;
+    margin: auto 6rem auto 6rem;
+    display: inline-block;
+}
+
+.about-permis{
+    margin-top: 8rem;
+    padding-bottom: 5rem;
+}
+
+.dark{
+    color: #003366;
+    font-size: 2rem;
+}
+
+.contact-section{
+    text-align: center;
+    width: 30%;
+    margin: auto 6rem auto 6rem;
+    display: inline-block;
+}
+
+.contact-schedule{
+    padding-top: 2rem;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.contact-info{
+    padding: 4rem;
+}
+
+.contact-forms{
+    padding: 3rem;
+}
+
+.btn {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #003366;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #0252a3;
+    text-decoration: none;
 }
